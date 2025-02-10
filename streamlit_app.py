@@ -4,6 +4,7 @@ try :
   from openai import OpenAI
 except: 
   os.system("pip install openai")
+  from openai import OpenAI
   
 
 class Page1:

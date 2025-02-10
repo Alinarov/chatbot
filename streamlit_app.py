@@ -1,4 +1,4 @@
-!pip install OpenAI
+os.system("pip install OpenAI")
 import streamlit as st
 from openai import OpenAI
 

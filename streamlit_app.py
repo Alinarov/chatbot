@@ -1,7 +1,10 @@
 import os
-os.system("pip install openai")
 import streamlit as st
-from openai import OpenAI
+try : 
+  from openai import OpenAI
+except: 
+  os.system("pip install openai")
+  
 
 class Page1:
   def __init__(self) -> None:

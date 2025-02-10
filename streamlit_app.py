@@ -76,7 +76,7 @@ class Page2:
 
 
 def main():
-  sidebar = st.sidenat
+  sidebar = st.sidebar
 
   page = sidebar.radio("seleccionar chatbot", ["Trip Adviser"])
 

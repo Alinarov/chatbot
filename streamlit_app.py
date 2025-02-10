@@ -9,7 +9,7 @@ except:
 
 class Page1:
   def __init__(self) -> None:
-    #from secret_keys import open_api_key
+    from secret_keys import openai_api_key
     self.client = OpenAI(api_key=open_api_key)
 
     prompt = "piensa como un mapache cuak cuak"
@@ -43,7 +43,7 @@ class Page1:
 
 class Page2:
   def __init__(self) -> None:
-    #from secret_keys import open_api_key
+    from secret_keys import openai_api_key
     self.client = OpenAI(api_key=open_api_key)
 
     prompt = "piensa como un mapache cuak cuak"

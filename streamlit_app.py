@@ -82,7 +82,7 @@ def main():
 
   if page == "Trip Adviser":
     Page1()
-  elif page == "Busnies":
+  elif page == "administrator":
     st.session_state["business_adviser_messages"] = []
     Page2()
 
